@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width:100vw;
+    height:125vh;
+    background-color:#2CB3F3;  
+}
+header{
+    width:100vw;
+    height:16.6vh;
+    margin-top:11.8vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    font-size:3.7vw;
+    padding:1.2vw;
+}
+header p{
+    font-size:2vw;
+}
+main{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.head-finn{
+    background-color:#FFFFFF;
+    width:57vw;
+    height:81.6vh;
+    border-radius: 15% 15% 0 0;
+}
+.face-finn{
+    width:45vw;
+    height:65.5vh;
+    background-color: #FFE1C9;
+    border-radius:70%;
+    position:relative;
+    top:8.1vh;
+    left:6.11vw;
+}
+.eye1{
+    width:3.6vw;
+    height:7.3vh;
+    background-color:#000000;
+    position:relative;
+    border-radius:50%;
+    top:12.1vh;
+    left:12vw;
+}
+.eye2{
+    width:3.6vw;
+    height:7.3vh;
+    background-color:#000000;
+    position:absolute;
+    top:12.1vh;
+    right:12vw;
+    border-radius:50%;
+}
+.mouth-finn{
+    position:absolute;
+    top:35vh;
+    left:11vw;
+}
+.mouth-finn input{
+    width:24.3vw;
+    height:8vh;
+    border: 3px solid #000000;
+    border-radius:5px;
+    font-size:1.6vw;
+}
+.button-finn{
+    width:14.3vw;
+    height:9.2vh;
+    border-radius:5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:#55A603;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:1.6vw;
+    position:absolute;
+    top:123vh;
+}
+.button-finn:hover{
+    cursor:pointer;
+    box-shadow: 0 0 70px 0 greenyellow;
+    transform: scale(1.1);
+}
